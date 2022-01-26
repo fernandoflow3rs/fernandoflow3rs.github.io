@@ -1,0 +1,43 @@
+
+main {
+    font-family: monospace;
+}
+body {
+    text-align: center;
+    font-family: monospace;
+    background-color:#dea045;
+    color: #a7d49b;
+}
+p {
+    font-size: 25px;
+    color: #55251D;
+}
+ul {
+    font-size: 29px;
+    color: #55251D;
+}
+footer{
+    text-align: center;
+    font-size: 40px;
+}
+img {
+    max-width:500px;
+}
+nav{
+    font-size: 40px;
+    text-align: center;
+}
+a{
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: none;
+    color:#a7d49b;
+    font-size: 40px;
+
+}
+a:hover {
+    color: #696047;
+}
+h1{
+
+}
