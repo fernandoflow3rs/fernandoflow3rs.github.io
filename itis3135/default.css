@@ -1,34 +1,45 @@
-
-main {
+title 
+{
+    font-size: 38px;
+}
+main 
+{
     font-family: monospace;
 }
-body {
+body 
+{
     text-align: center;
     font-family: monospace;
     background-color:#dea045;
     color: #a7d49b;
 }
-p {
+p 
+{
     font-size: 25px;
     color: #55251D;
 }
-ul {
+ul 
+{
     text-align: left;
-    font-size: 29px;
+    font-size: 20px;
     color: #55251D;
 }
-footer{
+footer
+{
     text-align: center;
-    font-size: 40px;
+    font-size: 18px;
 }
-img {
+img 
+{
     max-width:500px;
 }
-nav{
-    font-size: 40px;
+nav
+{
+    font-size: 20px;
     text-align: center;
 }
-a{
+a
+{
     font-weight: bold;
     font-family: monospace;
     text-decoration: none;
@@ -36,9 +47,4 @@ a{
     font-size: 40px;
 
 }
-a:hover {
-    color: #696047;
-}
-h1{
-
-}
+a:hover {color: #696047;}
