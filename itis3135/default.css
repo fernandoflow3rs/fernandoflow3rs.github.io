@@ -49,3 +49,39 @@ a
 
 }
 a:hover {color: #696047;}
+select 
+{
+    margin-bottom: 15px;
+}
+#button 
+{
+    background-color:#55251D;
+    color: #dea045;
+    padding: 5px 10px;
+    border:none;
+}
+#hair
+{
+    background-color:#55251D;
+    color: #dea045;
+    padding: 5px 10px;
+    border:none;
+}
+#fname
+{
+    background-color:#55251D;
+    color: #dea045;
+    border:none;
+}
+#phone
+{
+    background-color:#55251D;
+    color: #dea045;
+    border: none;
+}
+#email
+{
+    background-color:#55251D;
+    color: #dea045;
+    border: none;
+}
