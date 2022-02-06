@@ -1,0 +1,19 @@
+body 
+{
+    color: orange;
+    background-color: #bb729e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right:100px;
+    margin-left: 100px;
+}
+header, footer
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a
+{
+    color: #7B4B04;
+    text-decoration: none;
+}
+a:hover{color: darkgrey;}
