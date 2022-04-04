@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8" />
+    <title> Awesome ABC Counting Class Site # Home Page</title>
+    <link rel="stylesheet" href= "styles/default.css" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2>Name the polygon!</h2>
+        <p>
+            Follow the instructions given by the prompts:
+        </p>
+        <button type="button" onClick="getShape()">Click to here to begin!</button>
+        <script>
+            var sides = prompt("The Fandango Fox would like to consturct a shape for you, how many sides from 1-10 would you like?");
+            var selectedSide;
+            dataValidate(sides);
+            getShape(sides);
+
+            function dataValidate(data)
+            {
+                console.log("dataValidate is working, figure out the real issue!")
+                var numberData = parseFloat(data);
+                var dataCorrected = false;
+
+                numberData = Math.round(numberData);
+                console.log("rounded to " + numberData);
+                while (numberData > 10 || isNaN(numberData))
+                {
+                    numberData = prompt("You have selected an invalid number/character, please try again!");
+                    sides = numberData
+                    dataCorrected = true;
+                    
+                }
+                if (data < 0)
+                {
+                    numberData = Math.abs(numberData);
+                    console.log("converted to "+ numberData);
+                    sides = numberData;
+                }
+                sides = parseInt(numberData);
+                return sides;
+            }
+
+                function getShape(sides)
+                {
+                    console.log(sides);
+                    if (sides === 1)
+                    {
+                        alert("This is only a line!");
+                        selectedSide = "monogon";
+                    } 
+                    else if (sides === 2)
+                    {
+                        alert("You have selected the digon.");
+                        selectedSide = "digon";
+
+                    }
+                    else if (sides === 3)
+                    {
+                        alert("You have selected the trigon.");
+                        selectedSide = "trigon";
+                    }
+                    else if (sides === 4)
+                    {
+                        alert("You have selected the tetragon.");
+                        selectedSide = "tetragon";
+                    }
+                    else if (sides === 5)
+                    {
+                        alert("You have selected the pentagon.");
+                        selectedSide = "pentagon";
+                    }
+                    else if (sides === 6)
+                    {
+                        alert("You have selected the hexagon.");
+                        selectedSide = "hexagon";
+                    }
+                    else if (sides === 7)
+                    {
+                        alert("You have selected the heptagon.");
+                        selectedSide = "heptagon";
+                    }
+                    else if (sides === 8)
+                    {
+                        alert("You have selected the octagon.");
+                        selectedSide = "monogon";
+                    }
+                    else if (sides === 9)
+                    {
+                        alert("You have selected the enneagon.");
+                        selectedSide = "monogon";
+                    }
+                    else if (sides === 10)
+                    {
+                        alert("You have selected the decagon.")
+                        selectedSide = "monogon";
+                    }
+                    else {
+                        alert("Oops. Shouldn't be seeing this!");
+                        selectedSide = "Unknown";
+                    }
+                }
+        </script>
+
+    </main>
+    <footer>
+        <div data-include="components/footer.html">
+    </footer>
+    <script src="scripts/include.js"></script>
+</body>
+</html>
